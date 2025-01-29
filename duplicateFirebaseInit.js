@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the `initializeApp` function is called more than once with different configurations.  This can happen if you accidentally initialize Firebase multiple times in your application, perhaps due to multiple imports of the Firebase library or due to improper modularization.
